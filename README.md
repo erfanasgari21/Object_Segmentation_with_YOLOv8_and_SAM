@@ -1,17 +1,18 @@
 # Object Segmentation with YOLOv8 and SAM
 
+*Introduction to Mechatronics (ECE) | Spring 2024 | Dr. Tale Masouleh | University of Tehran*
+
+*A Project Implemented by: [Erfan Asgari](https://github.com/erfanasgari21), [Noora Zaeri](https://github.com/)*
+
+
 This project focuses on detecting and segmenting objects in catering package images, including items like teabags, plastic cutlery, juice boxes, bananas, and more. Utilizing YOLOv8 for object detection and SAM (Segment Anything Model) for segmentation, the project demonstrates a streamlined approach to object recognition and segmentation to enhance robotic manipulation.
 
-## Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-  - [Object Detection with YOLOv8](#object-detection-with-yolov8)
-  - [Object Segmentation with SAM](#object-segmentation-with-sam)
-- [Results](#results)
-  - [Object Detection](#object-detection-results)
-  - [Object Segmentation](#object-segmentation-results)
-- [Future Work](#future-work)
+![Segmentation Sample3](media/Seg3.png)
+
+## Files
+- [Project Description (English)](Project-Description.pdf)
+- [Final Report (English)](Report.pdf)
+- [Implemented Code (ipynb)](Code.ipynb)
 
 
 ## Overview
@@ -32,7 +33,7 @@ The [grasp-6](https://universe.roboflow.com/proj-sfl83/grasp-6) dataset contains
 - Test Set: 12%
 
 ![Dataset Distribution](media/Dataset_Distribution.png)
-![Dimension Insight](media/Dimension-Insight.png)
+
 
 ## Methodology
 
@@ -64,7 +65,6 @@ Using the bounding boxes obtained from YOLOv8 as box prompt, SAM was utilized fo
 
 ![Segmentation Sample1](media/Seg1.png)
 ![Segmentation Sample2](media/Seg2.png)
-![Segmentation Sample3](media/Seg3.png)
 ![Segmentation Sample4](media/Seg4.png)
 
 Segmentation results were evaluated based on the accuracy of mask generation. The segmentation model performed well on well-represented classes but showed variation on under-represented classes.
