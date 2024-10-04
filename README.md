@@ -5,7 +5,7 @@
 *A Project Implemented by: [Erfan Asgari](https://github.com/erfanasgari21), [Noora Zaeri](https://github.com/)*
 
 
-This project focuses on detecting and segmenting objects in catering package images, including items like teabags, plastic cutlery, juice boxes, bananas, and more. Utilizing YOLOv8 for object detection and SAM (Segment Anything Model) for segmentation, the project demonstrates a streamlined approach to object recognition and segmentation to enhance robotic manipulation.
+This project focuses on detecting and segmenting objects in catering package images, including items like teabags, plastic cutlery, juice boxes, bananas, and more. Fine-tuning YOLOv8 for object detection and utilizing SAM (Segment Anything Model) for segmentation, the project demonstrates a streamlined approach to object recognition and segmentation to enhance robotic manipulation.
 
 ![Segmentation Sample3](media/Seg3.png)
 
